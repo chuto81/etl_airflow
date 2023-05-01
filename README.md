@@ -26,9 +26,9 @@ When it is ready, open your browser  and go to this address:
 That opens the Airflow application, as seen in the following image:
 ![Airflow Application](https://user-images.githubusercontent.com/43504731/235488613-afd057b4-beb4-4dcc-b61b-d9e7e1fb5cf7.png)
 
-Use these credentials:
-login = *airflow*
-login = *airflow*
+Use these credentials to enter:
+- login = *airflow*
+- password = *airflow*
 
 ## 4. Run the DAG
 
@@ -49,7 +49,7 @@ Run the following command in your CLI:
 
 `sudo chown $USER:root exports`
 
-## About the data file
+## About the data input
 
 The csv file *Traffic_Flow_Map_Volumes.csv* does not have accident or weather information.
 
